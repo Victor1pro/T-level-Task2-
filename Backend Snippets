@@ -1,8 +1,35 @@
 # Backend Snippets
 
 ## Installation of developer tools
-- [ ] pip install fastapi[all]
-- [ ] pip install sqlalchemy
+- [ ] pip install fastapi[all] (API framework)
+- [ ] pip install sqlalchemy (ORM models)
 - [ ] pip install alembic
-- [ ] pip install passlib[bcrypt]
+  - [ ] alembic init (Directory name)
+- [ ] pip install passlib[bcrypt] (Hashing)
 - [ ] tailwindcss
+
+### Env file
+Database URL (sqlite3 for development, Postgres for production)
+APP_DATABASE_URL = "sqlite:///./GLH.db"
+
+APP ENCODING & DECODING ALGORITHM
+APP_ALGORITHM = "HS256"
+
+APP JWT TOKEN SECRET KEY
+APP_ACCESS_TOKEN_SECRET_KEY = "(Gotten from secrets hex_code(64))"
+APP_REFRESH_TOKEN_SECRET_KEY = "(Gotten from secrets hex_code(64))"
+
+APP JWT TOKEN EXPIRATION
+APP_ACCESS_TOKEN_EXPIRE_MINUTES = 15
+APP_REFRESH_TOKEN_EXPIRE_DAYS = 30
+
+APP SESSION EXPIRATION
+APP_SESSION_EXPIRE_MINUTES = 15
+APP_SESSION_EXPIRE_DAYS = 30
+
+APP ENVIRONMENT
+APP_ENVIRONMENT = "development"
+
+## Database Models
+
+
