@@ -1,0 +1,8 @@
+# Backend Snippets
+
+## Installation of developer tools
+- [ ] pip install fastapi[all]
+- [ ] pip install sqlalchemy
+- [ ] pip install alembic
+- [ ] pip install passlib[bcrypt]
+- [ ] tailwindcss
