@@ -31,8 +31,35 @@ This repository is for T-level Task 2 Prototype development
 - [ ] Scripts
 
 ### Other Documents
-- [ ] change Log
+- [ ] change Log / Version History (Table)
+  - [ ] VersionID e.g 1.2.5
+  - [ ] Date:
+  - [ ] Author:
+  - [ ] Version
+  - [ ] Summary of change: (One description sentence)
+  - [ ] Detailed Change:
+  - [ ] Status (Added, chnaged, Removed)
+  - [ ] Impact Assesssment:
+    - [ ] Users
+    - [ ] Risk level (High, medium, low): HGigh: if neglected
 - [ ] Development log
+  - [ ] Date
+  - [ ] Feature / Compionnet Worked on
+  - [ ] Development action taken
+  - [ ] Problems / problems encountered
+  - [ ] Testing completed
+  - [ ] Chnages made / next steps
 - [ ] Asset log
-- [ ] 
-  - [ ]  
+  - [ ] Asset ID
+  - [ ] Assest
+  - [ ] Type:image, icons
+  - [ ] Purpose:
+  - [ ] File location
+  - [ ] Author
+  - [ ] Version
+- [ ] Test Table
+  - [ ] Description of test
+  - [ ] Test data to be used
+  - [ ] Expected outcome
+  - [ ] Actual outcome
+  - [ ] Commebnts & intende outcome
